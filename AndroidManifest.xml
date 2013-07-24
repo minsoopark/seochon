@@ -19,9 +19,14 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".activities.MainActivity"
+        <activity
+                android:name=".activities.MainActivity"
                 android:theme="@style/WhiteTheme"/>
-        <activity android:name=".activities.MapActivity"
+        <activity
+                android:name=".activities.MapActivity"
                   android:theme="@style/WhiteTheme"/>
+        <activity
+                android:name=".activities.HowtouseActivity"
+                android:theme="@style/HowtouseWhiteTheme"/>
     </application>
 </manifest>
