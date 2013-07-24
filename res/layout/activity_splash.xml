@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
+              android:background="#fff"
         >
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello World, SplashActivity"
+
+    <ImageView
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/splash_logo"
+            android:contentDescription=""
             />
-</LinearLayout>
+
+
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="70dp"
+            android:src="@drawable/splash_bottom"
+            android:contentDescription=""
+            />
+
+</FrameLayout>
 
