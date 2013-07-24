@@ -2,6 +2,7 @@ package com.ingichuk.app.seochon.activities;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -18,6 +19,8 @@ public class MainActivity extends Activity {
 
     private View.OnClickListener menuClickListener;
 
+    private Intent intent;
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -29,29 +32,21 @@ public class MainActivity extends Activity {
         buttonMenuView = (ImageView) findViewById(R.id.menu_view);
 
 
+        menuClickListener = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int tag = Integer.parseInt((String)v.getTag());
+                intent = new Intent(MainActivity.this, MapActivity.class);
+                intent.putExtra("mode", tag);
+                startActivity(intent);
+            }
+        };
+
+
         buttonMenuEat.setOnClickListener(menuClickListener);
         buttonMenuDrink.setOnClickListener(menuClickListener);
         buttonMenuPlay.setOnClickListener(menuClickListener);
         buttonMenuRest.setOnClickListener(menuClickListener);
         buttonMenuView.setOnClickListener(menuClickListener);
-
-        menuClickListener = new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int tag = Integer.parseInt((String)v.getTag());
-                switch (tag) {
-                    case 0:
-                        break;
-                    case 1:
-                        break;
-                    case 2:
-                        break;
-                    case 3:
-                        break;
-                    case 4:
-                        break;
-                }
-            }
-        };
     }
 }

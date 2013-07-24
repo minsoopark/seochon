@@ -16,5 +16,7 @@
         </activity>
         <activity android:name=".activities.MainActivity"
                 android:theme="@style/WhiteTheme"/>
+        <activity android:name=".activities.MapActivity"
+                  android:theme="@style/WhiteTheme"/>
     </application>
 </manifest>

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">서촌스케치</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 </resources>
