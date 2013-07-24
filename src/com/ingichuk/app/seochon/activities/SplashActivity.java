@@ -1,7 +1,8 @@
-package com.ingichuk.app.seochon;
+package com.ingichuk.app.seochon.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
+import com.ingichuk.app.seochon.R;
 
 public class SplashActivity extends Activity {
     /**
@@ -10,6 +11,6 @@ public class SplashActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.activity_splash);
     }
 }
