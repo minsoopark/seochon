@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.DrawerLayout;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 import com.ingichuk.app.seochon.R;
@@ -58,5 +59,13 @@ public class MapActivity extends FragmentActivity {
     protected void onPostCreate(Bundle savedInstanceStage) {
         super.onPostCreate(savedInstanceStage);
         drawerToggle.syncState();
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(drawerToggle.onOptionsItemSelected(item)) {
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

@@ -25,12 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="386df1d2-c19f-44bd-94e2-d3c40b62a322" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/PushLinkAndroid-5.0.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/PushLinkAndroid_5_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ingichuk/app/seochon/SeochonApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/seochon.iml" afterPath="$PROJECT_DIR$/seochon.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/MapActivity.java" afterPath="$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/MapActivity.java" />
     </list>
     <ignored path="seochon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,13 +37,14 @@
     <file path="/styles.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374676581828" ignored="false" />
     <file path="/colors.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374676499025" ignored="false" />
     <file path="/activity_main.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374677228230" ignored="false" />
-    <file path="/MapActivity.java" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374679821409" ignored="false" />
+    <file path="/MapActivity.java" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374683455200" ignored="false" />
     <file path="/activity_map.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374680002169" ignored="false" />
     <file path="/strings.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374678522848" ignored="false" />
     <file path="/DrawerAdapter.java" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374679787807" ignored="false" />
     <file path="/row_drawer.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374680348108" ignored="false" />
     <file path="/PushLinkSetup.java" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374682069614" ignored="false" />
     <file path="/fragment.java" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374682233656" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374683514799" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,10 +129,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="44" selection-start="266" selection-end="266" vertical-scroll-proportion="0.17857143">
+            <state line="5" column="44" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -166,10 +162,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MapActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MapActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/MapActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="48" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
+            <state line="68" column="49" selection-start="2055" selection-end="2055" vertical-scroll-proportion="0.8214286">
               <folding />
             </state>
           </provider>
@@ -249,13 +245,13 @@
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/ingichuk/app/seochon/adapters/DrawerAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/MapActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_map.xml" />
         <option value="$PROJECT_DIR$/res/layout/row_drawer.xml" />
         <option value="$PROJECT_DIR$/src/com/ingichuk/app/seochon/thirdparty/PushLinkSetup.java" />
         <option value="$PROJECT_DIR$/src/com/ingichuk/app/seochon/thirdparty/SeochonApplication.java" />
         <option value="$PROJECT_DIR$/src/com/ingichuk/app/seochon/SeochonApplication.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/MapActivity.java" />
       </list>
     </option>
   </component>
@@ -666,7 +662,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.67094016" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.67094016" order="-1" side_tool="false" content_ui="tabs" />
@@ -686,7 +682,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17504051" sideWeight="0.67094016" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -830,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/MapActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="48" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/mapmenu_button_food.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -883,7 +872,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="44" selection-start="266" selection-end="266" vertical-scroll-proportion="0.17857143">
+        <state line="5" column="44" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/MapActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="49" selection-start="2055" selection-end="2055" vertical-scroll-proportion="0.8214286">
           <folding />
         </state>
       </provider>
