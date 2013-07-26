@@ -3,8 +3,10 @@
   <component name="AndroidDesignerProfile">
     <option name="fullProfile">
       <profile>
-        <option name="device" value="[None]" />
-        <option name="theme" value="HowtouseWhiteTheme" />
+        <option name="device" value="4.65in 720p (Galaxy Nexus)" />
+        <option name="deviceConfiguration" value="Portrait" />
+        <option name="targetHashString" value="android-17" />
+        <option name="theme" value="WhiteTheme" />
       </profile>
     </option>
     <option name="selection" value="[Full]" />
@@ -23,17 +25,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="386df1d2-c19f-44bd-94e2-d3c40b62a322" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ingichuk/app/seochon/SeochonApplication.java" afterPath="$PROJECT_DIR$/src/com/ingichuk/app/seochon/SeochonApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/howtouse_1_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/howtouse_1_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/howtouse_1_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/indicator_selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/indicator_unselected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/common_indicator.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/page_one.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/page_three.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/page_two.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/HowtouseActivity.java" afterPath="$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/HowtouseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_howtouse.xml" afterPath="$PROJECT_DIR$/res/layout/activity_howtouse.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="seochon.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374714841587" ignored="false" />
+    <file path="/Dummy.txt" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374859976827" ignored="false" />
     <file path="/activity_splash.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374674443069" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374683974323" ignored="false" />
     <file path="/SplashActivity.java" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374684108806" ignored="false" />
     <file path="/MainActivity.java" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374677563338" ignored="false" />
-    <file path="/styles.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374683958923" ignored="false" />
+    <file path="/styles.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374860177597" ignored="false" />
     <file path="/colors.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374676499025" ignored="false" />
     <file path="/activity_main.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374677228230" ignored="false" />
     <file path="/MapActivity.java" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374683455200" ignored="false" />
@@ -43,9 +56,11 @@
     <file path="/row_drawer.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374680348108" ignored="false" />
     <file path="/PushLinkSetup.java" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374682069614" ignored="false" />
     <file path="/fragment.java" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374715049414" ignored="false" />
-    <file path="/HowtouseActivity.java" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374684250548" ignored="false" />
-    <file path="/activity_howtouse.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374683871875" ignored="false" />
+    <file path="/HowtouseActivity.java" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374859554770" ignored="false" />
+    <file path="/activity_howtouse.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374860099874" ignored="false" />
     <file path="/SeochonApplication.java" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374716171609" ignored="false" />
+    <file path="/page_one.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374858913519" ignored="false" />
+    <file path="/common_indicator.xml" changelist="386df1d2-c19f-44bd-94e2-d3c40b62a322" time="1374860072971" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,10 +121,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SplashActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/SplashActivity.java">
+      <file leaf-file-name="HowtouseActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/HowtouseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="49" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+            <state line="12" column="30" selection-start="415" selection-end="415" vertical-scroll-proportion="-2.1480582">
               <folding />
             </state>
           </provider>
@@ -118,43 +133,43 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="79" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0">
+            <state line="29" column="44" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeochonApplication.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ingichuk/app/seochon/SeochonApplication.java">
+      <file leaf-file-name="page_two.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/page_two.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="104" selection-start="588" selection-end="588" vertical-scroll-proportion="0.26849642">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/MainActivity.java">
+      <file leaf-file-name="page_three.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/page_three.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0">
+            <state line="5" column="69" selection-start="259" selection-end="259" vertical-scroll-proportion="-1.4423077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="70" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+      <file leaf-file-name="common_indicator.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/common_indicator.xml">
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/MapActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="60" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0">
+            <state line="4" column="44" selection-start="212" selection-end="212" vertical-scroll-proportion="-1.1538461">
               <folding />
             </state>
           </provider>
@@ -166,40 +181,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HowtouseActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/HowtouseActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="60" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="row_drawer.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/row_drawer.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="43" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_map.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_map.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="36" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0">
+            <state line="10" column="61" selection-start="410" selection-end="410" vertical-scroll-proportion="-2.8846154">
               <folding />
             </state>
           </provider>
@@ -227,9 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/com/ingichuk/app/seochon/adapters/DrawerAdapter.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_map.xml" />
@@ -237,19 +216,22 @@
         <option value="$PROJECT_DIR$/src/com/ingichuk/app/seochon/thirdparty/PushLinkSetup.java" />
         <option value="$PROJECT_DIR$/src/com/ingichuk/app/seochon/thirdparty/SeochonApplication.java" />
         <option value="$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/MapActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/activity_howtouse.xml" />
-        <option value="$PROJECT_DIR$/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/HowtouseActivity.java" />
         <option value="$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/SplashActivity.java" />
         <option value="$PROJECT_DIR$/src/com/ingichuk/app/seochon/SeochonApplication.java" />
+        <option value="$PROJECT_DIR$/res/layout/page_two.xml" />
+        <option value="$PROJECT_DIR$/res/layout/page_one.xml" />
+        <option value="$PROJECT_DIR$/res/layout/common_indicator.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_howtouse.xml" />
+        <option value="$PROJECT_DIR$/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/HowtouseActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="2549" />
-    <option name="height" value="1410" />
+    <option name="width" value="1280" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -296,8 +278,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -498,11 +478,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="ExportedApkPath" value="$PROJECT_DIR$/seochon.apk" />
@@ -512,7 +494,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/android-support-v4.jar!/" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="0149C25E0B014006" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="false" />
@@ -523,16 +505,16 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/res/drawable-xhdpi" />
+      <recent name="$PROJECT_DIR$/res/layout" />
       <recent name="$PROJECT_DIR$/libs" />
       <recent name="$PROJECT_DIR$/res/drawable" />
       <recent name="$PROJECT_DIR$/res/drawable-mdpi" />
-      <recent name="$PROJECT_DIR$/res/drawable-hdpi" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.ingichuk.app.seochon" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/res/drawable-xhdpi" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ingichuk.app.seochon" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.seochon">
@@ -694,29 +676,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2549" height="1410" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.6727829" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.6727829" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17578906" sideWeight="0.6713178" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32868218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17504051" sideWeight="0.6727829" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32721713" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.67094016" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.67094016" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -788,44 +770,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="31" selection-start="82" selection-end="82" vertical-scroll-proportion="-1.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="26" selection-start="1552" selection-end="1552" vertical-scroll-proportion="-1.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="158" selection-end="158" vertical-scroll-proportion="0.15189873">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/actionbar_button.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ingichuk/app/seochon/adapters/DrawerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="22" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/mapmenu_button_food.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -853,45 +797,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/MapActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="60" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_howtouse.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+        <state line="42" column="60" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1059" selection-end="1059" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="70" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="79" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/HowtouseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="60" selection-start="661" selection-end="661" vertical-scroll-proportion="0.0">
+        <state line="32" column="0" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -905,7 +818,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ingichuk/app/seochon/SeochonApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="104" selection-start="588" selection-end="588" vertical-scroll-proportion="0.26849642">
+        <state line="19" column="0" selection-start="588" selection-end="588" vertical-scroll-proportion="0.37190083">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../meety_android/meety_android/src/kr/meety/android/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="371" column="8" selection-start="10700" selection-end="14658" vertical-scroll-proportion="0.50159234">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/page_two.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/page_three.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="69" selection-start="259" selection-end="259" vertical-scroll-proportion="-1.4423077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/page_one.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="14" selection-start="40" selection-end="1068" vertical-scroll-proportion="0.089020774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/common_indicator.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="44" selection-start="212" selection-end="212" vertical-scroll-proportion="-1.1538461">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_howtouse.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="61" selection-start="410" selection-end="410" vertical-scroll-proportion="-2.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="66" selection-start="849" selection-end="849" vertical-scroll-proportion="0.78296703">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="44" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ingichuk/app/seochon/activities/HowtouseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="30" selection-start="415" selection-end="415" vertical-scroll-proportion="-2.1480582">
           <folding />
         </state>
       </provider>

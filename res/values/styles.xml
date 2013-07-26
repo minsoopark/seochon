@@ -10,7 +10,7 @@
     </style>
 
     <style name="HowtouseWhiteTheme" parent="AppBaseWhiteTheme">
-        <item name="android:actionBarStyle">@style/SeochonActionBar</item>
+        <item name="android:actionBarStyle">@style/HowtouseActionBar</item>
         <item name="android:windowBackground">@color/white</item>
     </style>
 
