@@ -8,11 +8,11 @@
         android:layout_height="match_parent"
         tools:context=".MapActivity">
 
-    <FrameLayout
+    <com.nhn.android.maps.NMapView
+            android:id="@+id/map_view"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:background="#ddd">
-    </FrameLayout>
+            />
 
     <ListView
             android:id="@+id/drawer_list"

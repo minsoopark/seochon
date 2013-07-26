@@ -12,8 +12,16 @@ public class SeochonApplication extends Application {
         super.onCreate();
         PushLink.addMetadata("Phone", Build.DEVICE);
         PushLink.start(this, R.drawable.ic_launcher,
-                "2165mbuqr499kk9o",
+                getPushLinkApiKey(),
                 Settings.Secure.getString(this.getContentResolver(),
                 Settings.Secure.ANDROID_ID));
+    }
+
+    public static String getMapApiKey() {
+        return "742e652562bb34fcec507e0dd4885f76";
+    }
+
+    public static String getPushLinkApiKey() {
+        return "2165mbuqr499kk9o";
     }
 }
