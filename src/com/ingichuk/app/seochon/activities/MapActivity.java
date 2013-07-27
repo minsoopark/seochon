@@ -79,7 +79,6 @@ public class MapActivity extends FragmentActivity {
 
         mapView.setDaumMapApiKey(SeochonApplication.getDaumMapApiKey());
         mapView.setMapType(MapView.MapType.Standard);
-        mapView.setMapCenterPoint(MapPoint.mapPointWithGeoCoord(37.5787331, 126.9724879), false);
 
         drawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
