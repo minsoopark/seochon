@@ -6,13 +6,8 @@
         android:id="@+id/drawer_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MapActivity">
-
-    <com.nhn.android.maps.NMapView
-            android:id="@+id/map_view"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            />
+        tools:context=".MapActivity"
+        android:background="#fff">
 
     <ListView
             android:id="@+id/drawer_list"

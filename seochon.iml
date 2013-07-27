@@ -18,6 +18,7 @@
     <orderEntry type="library" name="PushLinkAndroid-5.0.2" level="project" />
     <orderEntry type="library" name="android-support-v4" level="project" />
     <orderEntry type="library" name="nmaps" level="project" />
+    <orderEntry type="library" name="libDaumMapAndroid" level="project" />
   </component>
 </module>
 

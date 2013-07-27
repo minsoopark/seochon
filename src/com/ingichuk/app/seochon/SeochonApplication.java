@@ -17,8 +17,12 @@ public class SeochonApplication extends Application {
                 Settings.Secure.ANDROID_ID));
     }
 
-    public static String getMapApiKey() {
+    public static String getNaverMapApiKey() {
         return "742e652562bb34fcec507e0dd4885f76";
+    }
+
+    public static String getDaumMapApiKey() {
+        return "3c4ef0dd6615b2b34b5470c0672921bec149956b";
     }
 
     public static String getPushLinkApiKey() {
